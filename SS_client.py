@@ -15,8 +15,8 @@ dim = (1080,720)
 
 last_image = pyautogui.screenshot()
 disp_x,disp_y = last_image.size
-print(dim[0])
-input()
+#print(dim[0])
+#input()
 
 def translate(value, leftMin, leftMax, rightMin, rightMax):
     # Figure out how 'wide' each range is
