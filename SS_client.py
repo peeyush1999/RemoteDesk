@@ -10,7 +10,7 @@ import pickle
 import time
 HOST = '192.168.1.5'
 #HOST = '127.0.0.1'
-PORT =  2514
+PORT =  4152
 dim = (1080,720)
 
 last_image = pyautogui.screenshot()
