@@ -9,7 +9,7 @@ import sys
 #HOST = '192.168.1.5'
 HOST = socket.gethostbyname(socket.gethostname())
 print("Ask Client To put in This in IP :",HOST) #on Same network
-PORT =  4152
+PORT =  7777
 
 drag = False
 
